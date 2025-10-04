@@ -95,9 +95,9 @@ int main(int argc, char** argv) {
             execution += std::to_string(current_time) + ", " + std::to_string(duration_intr) +  ", CPU\n";
             current_time += duration_intr;
         }
-        else if(activity == "END_IO"){
-            execution += std::to_string(current_time) + ", " + std::to_string(end_io_delay) + ", end of I/O " + std::to_string(duration_intr) + ": interrupt\n";
-            current_time += end_io_delay;
+        else if (activity == "END_IO") {
+            execution += std::to_string(curr_time) + ", " + std::to_string(END_IO_duration) + ", " + "END_IO \n";
+            curr_time += END_IO_duration;
         }
 
 
