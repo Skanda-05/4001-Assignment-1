@@ -92,12 +92,12 @@ int main(int argc, char** argv) {
             current_time += 1;
         }
         if (activity == "CPU") {
-            execution += std::to_string(curr_time) + ", " + std::to_string(duration_intr) + ", " + "CPU \n";
-            curr_time += duration_intr; 
+            execution += std::to_string(current_time) + ", " + std::to_string(duration_intr) + ", " + "CPU \n";
+            current_time += duration_intr; 
         }
         else if (activity == "END_IO") {
-            execution += std::to_string(curr_time) + ", " + std::to_string(END_IO_duration) + ", " + "END_IO \n";
-            curr_time += END_IO_duration;
+            execution += std::to_string(current_time) + ", " + std::to_string(end_io_delay) + ", " + "END_IO \n";
+            current_time += end_io_delay;
         }
 
 
