@@ -6,6 +6,7 @@
  */
 
 #include "interrupts.hpp"
+>>>>>>> 18a1219612e5129d254680ebcda425a714b0a068
 
 //Device Table has 0->20
 //Vector Table has 0->26
