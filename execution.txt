@@ -1,0 +1,56 @@
+0, 75, CPU 
+75, 1, switch to kernel mode
+76, 20, context saved
+96, 1, find vector 5 in memory position 0x000A
+97, 1, load address 0X048B into the PC
+98, 131, call device driver
+229, 40, Transfer data
+269, 40, Check for errors
+309, 1, IRET
+310, 84, CPU 
+394, 172, END_IO 
+566, 22, CPU 
+588, 1, switch to kernel mode
+589, 20, context saved
+609, 1, find vector 10 in memory position 0x0014
+610, 1, load address 0X07B0 into the PC
+611, 484, call device driver
+1095, 40, Transfer data
+1135, 40, Check for errors
+1175, 1, IRET
+1176, 80, CPU 
+1256, 172, END_IO 
+1428, 79, CPU 
+1507, 1, switch to kernel mode
+1508, 20, context saved
+1528, 1, find vector 6 in memory position 0x000C
+1529, 1, load address 0X0639 into the PC
+1530, 185, call device driver
+1715, 40, Transfer data
+1755, 40, Check for errors
+1795, 1, IRET
+1796, 68, CPU 
+1864, 172, END_IO 
+2036, 71, CPU 
+2107, 1, switch to kernel mode
+2108, 20, context saved
+2128, 1, find vector 4 in memory position 0x0008
+2129, 1, load address 0X0292 into the PC
+2130, 170, call device driver
+2300, 40, Transfer data
+2340, 40, Check for errors
+2380, 1, IRET
+2381, 97, CPU 
+2478, 172, END_IO 
+2650, 84, CPU 
+2734, 1, switch to kernel mode
+2735, 20, context saved
+2755, 1, find vector 7 in memory position 0x000E
+2756, 1, load address 0X00BD into the PC
+2757, 72, call device driver
+2829, 40, Transfer data
+2869, 40, Check for errors
+2909, 1, IRET
+2910, 38, CPU 
+2948, 172, END_IO 
+3120, 90, CPU 
